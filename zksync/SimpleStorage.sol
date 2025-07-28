@@ -24,7 +24,7 @@ function retrieve ()public view  returns (uint256) {
     return myFavorateNumber;
 
 }
-// calldata memory storage
+
 function addperson (string memory _name, uint256 _favoratenumber  ) public {
     listpfpeople.push(person(_favoratenumber,_name));
     nametofavoritenumber[_name]= _favoratenumber;
